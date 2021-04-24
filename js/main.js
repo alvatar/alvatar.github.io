@@ -55,9 +55,9 @@ var galleryPandemiaPigmentos = startGallery('galleryPandemiaPigmentos', [
     {src: 'content/gallery/pandemia_pigmentos/01.jpg'}
 ]);
 
-var galleryAfrica = startGallery('galleryAfrica', [
+var galleryTierrasColor = startGallery('galleryTierrasColor', [
     {src: 'https://youtu.be/QrAGJhrFeEQ'},
-    {src: 'content/gallery/tierra_color_africa/01.jpg'}
+    {src: 'content/gallery/tierras_color/01.jpg'}
 ]);
 
 var galleryEmergence = startGallery('galleryEmergence', [
@@ -144,16 +144,16 @@ var galleryDerivandoEspacialmente = startGallery('galleryDerivandoEspacialmente'
 ]);
 
 works = [
-    {title: 'Y en realidad, todo tiene sentido, 2021', subtitle: 'AI Entity (video capture, 512px x 512px)', description: '', thumbnail: 'y_en_realidad_todo_tiene_sentido.mp4', isVideo: true, callback: 'galleryTodoTieneSentido'},
-    {title: 'La búsqueda de paz en la era de los gaznápiros de Twitter, 2021', subtitle: 'Oil on canvas, 100cm x 50cm', description: '', thumbnail: 'busqueda_paz_era_gaznapiros.jpg', callback: 'galleryGaznapiros'},
-    {title: 'Exceso de pandemia y pigmentos, 2020-2021', subtitle: 'AI entity w/ oil on canvas (512px x 512px, 100cm x 50cm)', description: '', thumbnail: 'pandemia_y_pigmentos.jpg', callback: 'galleryPandemiaPigmentos'},
-    {title: 'Tierras de Color y África, 2019-2021', subtitle: 'AI entity w/ oil on canvas (512px x 512px, 100cm x 50cm)', description: '', thumbnail: 'tierra_color_africa.jpg', callback: 'galleryAfrica'},
-    {title: 'Emergence series, 2019-2021', subtitle: 'Acrylic on canvas, 50cm x 50cm & AI Entity (video capture), 512px x 512px', description: '', thumbnail: 'emergence.jpg', callback: 'galleryEmergence'},
-    {title: 'Artifex, 2009', subtitle: 'Evolutionary Software Entity', description: '', thumbnail: 'artifex.jpg', callback: 'galleryArtifex'},
-    {title: 'Vacuum Virtual Machine, 2008', subtitle: 'Graph-automata Software Entity', description: '', thumbnail: 'vvm.jpg', callback: 'galleryVVM'},
-    {title: 'SwarmCity, 2007', subtitle: 'Concept design, website (HTML/Javascript), Java applets', description: '', thumbnail: 'swarmcity.jpg', callback: 'gallerySwarmCity'},
-    {title: 'Interacciones Constructivas_, 2006', subtitle: 'Network-connected Client and Server software (C++, OpenGL, Linux)', description: '', thumbnail: 'interacciones_constructivas.jpg', callback: 'galleryIC'},
-    {title: 'Derivando Espacialmente, 2004', subtitle: 'with Concha Almoguera and Pierre Elie Mamou. Video w/ audio, 720x576 2004', description: '', thumbnail: 'derivando_espacialmente.jpg', callback: 'galleryDerivandoEspacialmente'},
+    {title: 'Y en realidad, todo tiene sentido, 2021', subtitle: 'AI entities series (video captures, 512px x 512px)', description: 'No description.', thumbnail: 'y_en_realidad_todo_tiene_sentido.mp4', isVideo: true, callback: 'galleryTodoTieneSentido'},
+    {title: 'La búsqueda de paz en la era de los gaznápiros de Twitter, 2021', subtitle: 'Oil on canvas (100cm x 50cm & 100cm x 70cm)', description: 'No description.', thumbnail: 'busqueda_paz_era_gaznapiros.jpg', callback: 'galleryGaznapiros'},
+    {title: 'Exceso de pandemia y pigmentos, 2020-2021', subtitle: 'AI entity & Oil on canvas (512px x 512px & 100cm x 50cm)', description: 'No description.', thumbnail: 'pandemia_y_pigmentos.jpg', callback: 'galleryPandemiaPigmentos'},
+    {title: 'Tierras de Color, 2019-2021', subtitle: 'AI entity & Oil on canvas (512px x 512px, 100cm x 50cm)', description: 'No description.', thumbnail: 'tierras_color.jpg', callback: 'galleryTierrasColor'},
+    {title: 'Emergence series, 2019-2021', subtitle: 'Acrylic on canvas, 50cm x 50cm & AI Entity (video capture), 512px x 512px', description: 'A series of visual explorations of the interaction of cellular automata with the process of painting. Influence and interaction goes both ways: the cellular automata programs consists of algorithms developed by means of machine learning techniques and inform the painting process, which also serves as input for the evolutionary process of the automata.', thumbnail: 'emergence.jpg', callback: 'galleryEmergence'},
+    {title: 'Artifex, 2009', subtitle: 'Evolutionary Software Entity', description: 'Artifex is a 3-dimensional cellular automata computer program that uses evolutionary rules to constantly modify its behavior. From a series simple local rules (no cell is aware of what happens beyond its immediate neighbours), new spatial configurations emerge, producing unexpected forms that reminisce the complex natural formations present in nature. Cycle detection stops the program to get caught in an infinite loop, as well as discarding degenerate rules that lead the automate to extinction (or overtaking all available space).', thumbnail: 'artifex.jpg', callback: 'galleryArtifex'},
+    {title: 'Vacuum Virtual Machine, 2008', subtitle: 'Graph-automata Software Entity', description: 'VVM is a graph-rewriting automata: by following a set of local rules, a graph (represented as a series of connections between nodes) rewrites itself iteratively. As a consequence, unpredictable and complex behavior emerges. A key concept in this work is the idea that a graph can encode a cellular automata of arbitrary dimensions, and essentially break free of the constraints of dimensionality parameters in cellular automata models. VVM runs indefinitely and independently of its observer. It is concerned only with its own self-observation, constantly changing the viewpoint of the representation of its computation.', thumbnail: 'vvm.jpg', callback: 'galleryVVM'},
+    {title: 'SwarmCity, 2007', subtitle: 'with Fran Gallardo. Concept design, Web app with Java applets', description: 'SwarmCity is an urban intervention concept project. It proposes a set of mechanical/electronic entities (called Neotaxos) that artificially extend the natural ecosystem of the city, altering its biome. </br>Originally a website with a collection of embedded programs simulating their behavior (Java Applets), it no longer runs in modern browsers, so here I present a selection of images.', thumbnail: 'swarmcity.jpg', callback: 'gallerySwarmCity'},
+    {title: 'Interacciones Constructivas_, 2006', subtitle: 'Network-connected Client and Server software (standalone Linux prorgram)', description: 'IC_ was born as a prototype for augmenting our undertanding of complex information, particularly of emergent processes with multidimensional data. It consists of a client software (data generator) and a server software (data visualizer). Conceptually, it tries to process data projecting multiple dimensions trying to simplify them visually.', thumbnail: 'interacciones_constructivas.jpg', callback: 'galleryIC'},
+    {title: 'Derivando Espacialmente, 2004', subtitle: 'with Concha Almoguera and Pierre Elie Mamou. Video w/ audio, 720x576 2004', description: 'Derivando Espacialmente is a video reconstruction of the process of architectural drawing and ideation, augmented with the music of its thought process. The work is a collaboration with the architect and artist Concha Almoguera and the composer Pierre Elie Mamou.', thumbnail: 'derivando_espacialmente.jpg', callback: 'galleryDerivandoEspacialmente'},
 ]
 
 var currentWork = 0;
