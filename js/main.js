@@ -41,6 +41,27 @@ var addWork = function(config) {
     container.appendChild(elem);
 };
 
+
+var galleryFuegoAntimateriaI = startGallery('galleryFuegoAntimateriaI', [
+    {src: 'https://youtu.be/DS7woTBnN2A'}
+]);
+
+var galleryFuegoAntimateriaII = startGallery('galleryFuegoAntimateriaII', [
+    {src: 'https://youtu.be/1OTmbLa_DEs'}
+]);
+
+var gallerySoloFuego = startGallery('gallerySoloFuego', [
+    {src: 'https://youtu.be/2syp0Ikm5nM'}
+]);
+
+var galleryFutureCrossroadsI = startGallery('galleryFutureCrossroadsI', [
+    {src: 'https://youtu.be/mV_vkAVDmLQ'}
+]);
+
+var galleryFutureCrossroadsIII = startGallery('galleryFutureCrossroadsIII', [
+    {src: 'https://youtu.be/XZXBJGIytcM'}
+]);
+
 var galleryTodoTieneSentido = startGallery('galleryTodoTieneSentido', [
     {src: 'https://youtube.com/watch?v=0kYZ9WQkgAI'}
 ]);
@@ -144,10 +165,15 @@ var galleryDerivandoEspacialmente = startGallery('galleryDerivandoEspacialmente'
 ]);
 
 works = [
-    {title: 'Y en realidad, todo tiene sentido, 2021', subtitle: 'AI entities series (video captures, 512px x 512px)', description: '', thumbnail: 'y_en_realidad_todo_tiene_sentido.mp4', isVideo: true, callback: 'galleryTodoTieneSentido'},
+    {title: 'Fuego/Antimateria (I), 2021', subtitle: 'Digital Organism + Acrylic', description: 'AI/Human collaboration. The living painting, or digital organism, learns from my painting process in oil and acrylic. The resulting organism is a multi-cellular being, in which each cell has its own brain. Consequently, the AI organism is an emergent behavior of millions of cells.', thumbnail: 'fuego_antimateria_I.png', callback: 'galleryFuegoAntimateriaI'},
+    {title: 'Fuego/Antimateria (II), 2021', subtitle: 'Digital Organism + Acrylic', description: 'AI/Human collaboration. The living painting, or digital organism, learns from my painting process in oil and acrylic. The resulting organism is a multi-cellular being, in which each cell has its own brain. Consequently, the AI organism is an emergent behavior of millions of cells.', thumbnail: 'fuego_antimateria_II.png', callback: 'galleryFuegoAntimateriaII'},
+    {title: 'Sólo Fuego, 2021', subtitle: 'Digital Organism + Acrylic', description: 'AI/Human collaboration. The living painting, or digital organism, learns from my painting process in oil and acrylic. The resulting organism is a multi-cellular being, in which each cell has its own brain. Consequently, the AI organism is an emergent behavior of millions of cells.', thumbnail: 'solo_fuego.png', callback: 'gallerySoloFuego'},
+    {title: 'Future Crossroads (I), 2021', subtitle: 'Digital Organism + Acrylic', description: 'AI/Human collaboration. The living painting, or digital organism, learns from my painting process in oil and acrylic. The resulting organism is a multi-cellular being, in which each cell has its own brain. Consequently, the AI organism is an emergent behavior of millions of cells.', thumbnail: 'future_crossroads_I.png', callback: 'galleryFutureCrossroadsI'},
+    {title: 'Future Crossroads (III), 2021', subtitle: 'Digital Organism + Acrylic', description: 'AI/Human collaboration. The living painting, or digital organism, learns from my painting process in oil and acrylic. The resulting organism is a multi-cellular being, in which each cell has its own brain. Consequently, the AI organism is an emergent behavior of millions of cells.', thumbnail: 'future_crossroads_III.png', callback: 'galleryFutureCrossroadsIII'},
+    //{title: 'Y en realidad, todo tiene sentido, 2021', subtitle: 'AI entities series (video captures, 512px x 512px)', description: '', thumbnail: 'y_en_realidad_todo_tiene_sentido.mp4', isVideo: true, callback: 'galleryTodoTieneSentido'},
     {title: 'La búsqueda de paz en la era de los gaznápiros de Twitter, 2021', subtitle: 'Oil on canvas (100cm x 50cm & 100cm x 70cm)', description: '', thumbnail: 'busqueda_paz_era_gaznapiros.jpg', callback: 'galleryGaznapiros'},
     {title: 'Exceso de pandemia y pigmentos, 2020-2021', subtitle: 'AI entity & Oil on canvas (512px x 512px & 100cm x 50cm)', description: '', thumbnail: 'pandemia_y_pigmentos.jpg', callback: 'galleryPandemiaPigmentos'},
-    {title: 'Tierras de Color, 2019-2021', subtitle: 'AI entity & Oil on canvas (512px x 512px, 100cm x 50cm)', description: '', thumbnail: 'tierras_color.jpg', callback: 'galleryTierrasColor'},
+    //{title: 'Tierras de Color, 2019-2021', subtitle: 'AI entity & Oil on canvas (512px x 512px, 100cm x 50cm)', description: '', thumbnail: 'tierras_color.jpg', callback: 'galleryTierrasColor'},
     {title: 'Emergence series, 2019-2021', subtitle: 'Acrylic on canvas, 50cm x 50cm & AI Entity (video capture), 512px x 512px', description: 'A series of visual explorations of the interaction of cellular automata with the process of painting. Influence and interaction goes both ways: the cellular automata programs consists of algorithms developed by means of machine learning techniques and inform the painting process, which also serves as input for the evolutionary process of the automata.', thumbnail: 'emergence.jpg', callback: 'galleryEmergence'},
     {title: 'Artifex, 2009', subtitle: 'Evolutionary Software Entity', description: 'Artifex is a 3-dimensional cellular automata computer program that uses evolutionary rules to constantly modify its behavior. From a series simple local rules (no cell is aware of what happens beyond its immediate neighbours), new spatial configurations emerge, producing unexpected forms that reminisce the complex natural formations present in nature. Cycle detection stops the program to get caught in an infinite loop, as well as discarding degenerate rules that lead the automate to extinction (or overtaking all available space).', thumbnail: 'artifex.jpg', callback: 'galleryArtifex'},
     {title: 'Vacuum Virtual Machine, 2008', subtitle: 'Graph-automata Software Entity', description: 'VVM is a graph-rewriting automata: by following a set of local rules, a graph (represented as a series of connections between nodes) rewrites itself iteratively. As a consequence, unpredictable and complex behavior emerges. A key concept in this work is the idea that a graph can encode a cellular automata of arbitrary dimensions, and essentially break free of the constraints of dimensionality parameters in cellular automata models. VVM runs indefinitely and independently of its observer. It is concerned only with its own self-observation, constantly changing the viewpoint of the representation of its computation.', thumbnail: 'vvm.jpg', callback: 'galleryVVM'},
